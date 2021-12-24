@@ -1,0 +1,124 @@
+body{
+    margin:0;
+}
+.top_container{
+    
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 350px;
+}
+.backgroud_top
+{
+    /* opacity: 0.8; */
+    position: fixed;
+    left: 0;
+    /* bottom:150px; */
+    z-index: -50;
+    max-width: 100%;
+}
+
+.heading_name{
+    font-size: 30px;
+    display: inline-block;
+    color:chartreuse;
+    padding-top: 60px;
+    width: 400px;
+    height:100px;
+    font-family: "Press Start 2P",sans-serif;
+}
+
+.discord_alien{
+    max-width: 200px; 
+    height: auto; 
+    position: fixed;
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 100;
+}
+/* .alien{
+    position:absolute;
+    left:0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    max-height: 400px;
+    width: auto;
+} */
+/* .video-background{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+    opacity: 0.9;
+} */
+
+.mid_container{
+    text-align: center;
+    font-family: "Arima Madurai",sans-serif;
+    background-color:rgba(7, 26, 39, 0.671);
+    color:whitesmoke;
+    height:auto;
+    position: relative;
+}
+#profile_photo
+{
+    max-width: 200px;
+    border-style: inset;
+    margin-top: 50px;
+    border-radius: 50%;
+    border-color: gold;
+    border-width: 5px;
+}
+h2{
+    text-decoration: underline;
+}
+.horizontal_rule
+{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gold;
+    border-width: 7px;
+    width:30%;
+}
+.horizontal_rule_partition
+{
+    border-color: gold;
+    border-width: 3px;
+    margin: 0;
+}
+.skills{
+    max-width: 200px;
+    border-style: inset;
+    /* margin-top: 50px; */
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 2px;
+    position: relative;
+    right: 300px;
+    bottom: 20px;
+}
+.skills_text{
+    position: relative;
+    bottom: 220px;
+}
+
+.Bottom_container
+{
+    font-family: "Arima Madurai",sans-serif;
+    text-align: center;
+    color: rgb(255, 238, 0);
+    background-color: rgba(17, 63, 94, 0.637);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+a:hover{
+    color: gold;
+    font-style: italic;
+}
+a:visited{
+    color: greenyellow;
+}
+a:active{
+    color:cyan
+}
